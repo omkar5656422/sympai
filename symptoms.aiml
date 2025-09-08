@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+  <category>
+    <pattern>FEVER</pattern>
+    <template>flu, viral infection, typhoid</template>
+  </category>
+  <category>
+    <pattern>COUGH</pattern>
+    <template>common cold, cold, bronchitis, asthma</template>
+  </category>
+  <category>
+    <pattern>HEADACHE</pattern>
+    <template>migraine, stress, dehydration</template>
+  </category>
+  <category>
+    <pattern>STOMACH PAIN</pattern>
+    <template>food poisoning, gastritis, ulcer</template>
+  </category>
+  <category>
+    <pattern>FATIGUE</pattern>
+    <template>anemia, sleep deprivation, thyroid issues</template>
+  </category>
+  <category>
+    <pattern>I</pattern>
+    <template>cold</template>
+  </category>
+  <category>
+    <pattern>HAVE</pattern>
+    <template>cold</template>
+  </category>
+  <category>
+    <pattern>COLD</pattern>
+    <template>cold</template>
+  </category>
+  <category>
+    <pattern>AND</pattern>
+    <template>cold</template>
+  </category>
+  <category>
+    <pattern>LITTLE</pattern>
+    <template>cold</template>
+  </category>
+  <category>
+    <pattern>BIT</pattern>
+    <template>cold</template>
+  </category>
+  <category>
+    <pattern>THROAT</pattern>
+    <template>cold</template>
+  </category>
+  <category>
+    <pattern>PAIN</pattern>
+    <template>cold</template>
+  </category>
+  <category>
+    <pattern>STRESS</pattern>
+    <template>migraine</template>
+  </category>
+  <category>
+    <pattern>VOMATING</pattern>
+    <template>food poisoning</template>
+  </category>
+  <category>
+    <pattern>STOMACH</pattern>
+    <template>food poisoning</template>
+  </category>
+  <category>
+    <pattern>GUR GUR</pattern>
+    <template>food poisoning</template>
+  </category>
+  <category>
+    <pattern>HEADECHE</pattern>
+    <template>food poisoning</template>
+  </category>
+  <category>
+    <pattern>*</pattern>
+    <template>🤖 I’m not sure. Please consult a doctor.</template>
+  </category>
+</aiml>
