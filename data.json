@@ -1,7 +1,786 @@
 {
-  "fever": ["flu", "viral infection", "typhoid"],
-  "cough": ["common cold", "bronchitis", "asthma"],
-  "headache": ["migraine", "stress", "dehydration"],
-  "stomach pain": ["food poisoning", "gastritis", "ulcer"],
-  "fatigue": ["anemia", "sleep deprivation", "thyroid issues"]
+  "fever": [
+    "flu",
+    "viral infection",
+    "typhoid"
+  ],
+  "cough": [
+    "common cold",
+    "bronchitis",
+    "asthma"
+  ],
+  "headache": [
+    "migraine",
+    "stress",
+    "dehydration",
+    "tension"
+  ],
+  "stomach pain": [
+    "food poisoning",
+    "gastritis",
+    "ulcer",
+    "indigestion"
+  ],
+  "fatigue": [
+    "anemia",
+    "sleep deprivation",
+    "thyroid issues",
+    "chronic fatigue syndrome"
+  ],
+  "runny nose": [
+    "common cold",
+    "allergies",
+    "sinus infection"
+  ],
+  "sore throat": [
+    "common cold",
+    "strep throat",
+    "viral infection"
+  ],
+  "body aches": [
+    "flu",
+    "viral infection",
+    "dengue fever"
+  ],
+  "chills": [
+    "flu",
+    "viral infection",
+    "pneumonia"
+  ],
+  "vomiting": [
+    "food poisoning",
+    "stomach flu",
+    "gastritis"
+  ],
+  "nausea": [
+    "food poisoning",
+    "stomach flu",
+    "indigestion"
+  ],
+  "chest pain": [
+    "heartburn",
+    "anxiety",
+    "muscle strain"
+  ],
+  "shortness of breath": [
+    "asthma",
+    "panic attack",
+    "bronchitis"
+  ],
+  "rash": [
+    "allergies",
+    "measles",
+    "chickenpox"
+  ],
+  "dizziness": [
+    "dehydration",
+    "low blood sugar",
+    "vertigo"
+  ],
+  "joint pain": [
+    "arthritis",
+    "flu",
+    "lyme disease"
+  ],
+  "high temperature": [
+    "fever",
+    "viral infection",
+    "flu"
+  ],
+  "sore joints": [
+    "arthritis",
+    "flu"
+  ],
+  "feeling tired": [
+    "fatigue",
+    "anemia"
+  ],
+  "stomach upset": [
+    "indigestion",
+    "food poisoning"
+  ],
+  "earache": [
+    "ear infection",
+    "swimmer's ear"
+  ],
+  "stiff neck": [
+    "meningitis",
+    "muscle strain"
+  ],
+  "bloody nose": [
+    "nosebleed",
+    "high blood pressure"
+  ],
+  "loss of appetite": [
+    "stomach flu",
+    "anorexia",
+    "depression"
+  ],
+  "coughing up blood": [
+    "tuberculosis",
+    "bronchitis",
+    "pneumonia"
+  ],
+  "frequent urination": [
+    "diabetes",
+    "urinary tract infection",
+    "prostate issues"
+  ],
+  "yellow skin": [
+    "jaundice",
+    "liver disease",
+    "hepatitis"
+  ],
+  "severe pain in joints": [
+    "gout",
+    "arthritis"
+  ],
+  "swollen lymph nodes": [
+    "infection",
+    "strep throat",
+    "mononucleosis"
+  ],
+  "raspy voice": [
+    "laryngitis",
+    "common cold"
+  ],
+  "difficulty swallowing": [
+    "sore throat",
+    "tonsillitis"
+  ],
+  "frequent thirst": [
+    "diabetes",
+    "dehydration"
+  ],
+  "weight loss": [
+    "cancer",
+    "hyperthyroidism",
+    "diabetes"
+  ],
+  "difficulty sleeping": [
+    "insomnia",
+    "stress",
+    "anxiety"
+  ],
+  "chest pain when coughing": [
+    "bronchitis",
+    "pneumonia",
+    "pleurisy"
+  ],
+  "blurred vision": [
+    "diabetes",
+    "migraine",
+    "cataracts"
+  ],
+  "difficulty breathing": [
+    "asthma",
+    "pneumonia",
+    "bronchitis"
+  ],
+  "pale skin": [
+    "anemia",
+    "shock"
+  ],
+  "unexplained bruising": [
+    "hemophilia",
+    "vitamin K deficiency"
+  ],
+  "muscle weakness": [
+    "anemia",
+    "multiple sclerosis"
+  ],
+  "back pain": [
+    "kidney stone",
+    "arthritis",
+    "muscle strain"
+  ],
+  "constipation": [
+    "irritable bowel syndrome",
+    "dehydration",
+    "poor diet"
+  ],
+  "diarrhea": [
+    "food poisoning",
+    "stomach flu",
+    "irritable bowel syndrome"
+  ],
+  "weight gain": [
+    "hypothyroidism",
+    "pcos",
+    "Cushing's syndrome"
+  ],
+  "bloating": [
+    "irritable bowel syndrome",
+    "food intolerance",
+    "gastritis"
+  ],
+  "acid reflux": [
+    "gerd",
+    "heartburn",
+    "hiatal hernia"
+  ],
+  "heartburn": [
+    "gerd",
+    "indigestion"
+  ],
+  "skin itching": [
+    "dermatitis",
+    "eczema",
+    "allergies"
+  ],
+  "dry skin": [
+    "dehydration",
+    "eczema",
+    "hypothyroidism"
+  ],
+  "brittle nails": [
+    "anemia",
+    "hypothyroidism",
+    "fungal infection"
+  ],
+  "fatigue after eating": [
+    "diabetes",
+    "insulin resistance"
+  ],
+  "swelling of legs": [
+    "heart failure",
+    "kidney disease",
+    "deep vein thrombosis"
+  ],
+  "frequent headaches": [
+    "chronic migraine",
+    "stress",
+    "tension headaches"
+  ],
+  "cold hands and feet": [
+    "Raynaud's phenomenon",
+    "anemia",
+    "poor circulation"
+  ],
+  "night sweats": [
+    "menopause",
+    "tuberculosis",
+    "lymphoma"
+  ],
+  "mood swings": [
+    "bipolar disorder",
+    "pms",
+    "hormonal imbalance"
+  ],
+  "anxiety": [
+    "panic disorder",
+    "generalized anxiety disorder",
+    "stress"
+  ],
+  "depression": [
+    "major depressive disorder",
+    "seasonal affective disorder"
+  ],
+  "tremors": [
+    "Parkinson's disease",
+    "anxiety",
+    "hyperthyroidism"
+  ],
+  "short-term memory loss": [
+    "dementia",
+    "Alzheimer's disease",
+    "age-related memory decline"
+  ],
+  "seizure": [
+    "epilepsy",
+    "stroke",
+    "brain tumor"
+  ],
+  "slurred speech": [
+    "stroke",
+    "alcohol intoxication"
+  ],
+  "muscle cramps": [
+    "dehydration",
+    "electrolyte imbalance",
+    "magnesium deficiency"
+  ],
+  "dull ache in lower back": [
+    "kidney stone",
+    "muscle strain"
+  ],
+  "bloody stool": [
+    "hemorrhoids",
+    "ulcerative colitis",
+    "colon cancer"
+  ],
+  "yellow eyes": [
+    "jaundice",
+    "liver disease"
+  ],
+  "persistent cough": [
+    "asthma",
+    "chronic bronchitis",
+    "lung cancer"
+  ],
+  "abdominal pain": [
+    "appendicitis",
+    "irritable bowel syndrome",
+    "food poisoning",
+    "gastritis",
+    "ulcer",
+    "gallstones"
+  ],
+  "acne": [
+    "hormonal imbalance",
+    "skin inflammation",
+    "puberty"
+  ],
+  "alopecia": [
+    "hair loss",
+    "autoimmune disease",
+    "fungal infection"
+  ],
+  "anemia": [
+    "iron deficiency",
+    "vitamin B12 deficiency",
+    "blood loss"
+  ],
+  "angina": [
+    "chest pain",
+    "heart disease",
+    "coronary artery disease"
+  ],
+  "aphonia": [
+    "laryngitis",
+    "voice loss",
+    "vocal cord paralysis"
+  ],
+  "arthritis": [
+    "joint inflammation",
+    "autoimmune disorder",
+    "osteoarthritis",
+    "rheumatoid arthritis"
+  ],
+  "asphyxia": [
+    "suffocation",
+    "choking",
+    "drowning"
+  ],
+  "astigmatism": [
+    "vision problems",
+    "refractive error"
+  ],
+  "athlete's foot": [
+    "fungal infection",
+    "tinea pedis"
+  ],
+  "autism": [
+    "developmental disorder",
+    "neurodevelopmental disorder"
+  ],
+  "bedwetting": [
+    "urinary incontinence",
+    "enuresis",
+    "urinary tract infection"
+  ],
+  "bell's palsy": [
+    "facial paralysis",
+    "nerve damage"
+  ],
+  "bipolar disorder": [
+    "manic depression",
+    "mood disorder"
+  ],
+  "blindness": [
+    "vision loss",
+    "cataracts",
+    "glaucoma"
+  ],
+  "bronchitis": [
+    "cough",
+    "chest congestion",
+    "respiratory infection"
+  ],
+  "cancer": [
+    "malignant tumor",
+    "uncontrolled cell growth"
+  ],
+  "candidiasis": [
+    "yeast infection",
+    "thrush"
+  ],
+  "cardiac arrest": [
+    "heart attack",
+    "sudden heart failure"
+  ],
+  "carpal tunnel syndrome": [
+    "nerve compression",
+    "wrist pain"
+  ],
+  "cataracts": [
+    "cloudy vision",
+    "lens opacification"
+  ],
+  "celiac disease": [
+    "gluten intolerance",
+    "autoimmune disorder"
+  ],
+  "chickenpox": [
+    "varicella",
+    "skin rash",
+    "viral infection"
+  ],
+  "cholera": [
+    "diarrhea",
+    "dehydration",
+    "bacterial infection"
+  ],
+  "cirrhosis": [
+    "liver scarring",
+    "liver disease"
+  ],
+  "cleft lip": [
+    "congenital disability",
+    "birth defect"
+  ],
+  "cold sores": [
+    "herpes simplex virus",
+    "viral blisters"
+  ],
+  "conjunctivitis": [
+    "pink eye",
+    "eye inflammation"
+  ],
+  "cushing's syndrome": [
+    "hormonal disorder",
+    "high cortisol levels"
+  ],
+  "cystic fibrosis": [
+    "genetic disorder",
+    "mucus buildup"
+  ],
+  "dehydration": [
+    "fluid loss",
+    "extreme thirst",
+    "dry mouth"
+  ],
+  "dementia": [
+    "memory loss",
+    "cognitive decline"
+  ],
+  "dermatitis": [
+    "skin inflammation",
+    "eczema",
+    "allergic reaction"
+  ],
+  "diabetes": [
+    "high blood sugar",
+    "insulin resistance",
+    "type 1 diabetes",
+    "type 2 diabetes"
+  ],
+  "diphtheria": [
+    "bacterial infection",
+    "respiratory illness"
+  ],
+  "down syndrome": [
+    "genetic disorder",
+    "trisomy 21"
+  ],
+  "dyslexia": [
+    "learning disorder",
+    "reading disability"
+  ],
+  "eczema": [
+    "dermatitis",
+    "skin rash",
+    "atopic dermatitis"
+  ],
+  "emphysema": [
+    "lung disease",
+    "shortness of breath"
+  ],
+  "epilepsy": [
+    "seizures",
+    "neurological disorder"
+  ],
+  "fibromyalgia": [
+    "chronic pain",
+    "muscle aches",
+    "fatigue"
+  ],
+  "food poisoning": [
+    "bacterial infection",
+    "nausea",
+    "vomiting",
+    "diarrhea"
+  ],
+  "fracture": [
+    "broken bone",
+    "bone trauma"
+  ],
+  "gallstones": [
+    "gallbladder pain",
+    "abdominal pain"
+  ],
+  "gangrene": [
+    "tissue death",
+    "necrosis"
+  ],
+  "gingivitis": [
+    "gum inflammation",
+    "periodontal disease"
+  ],
+  "glaucoma": [
+    "optic nerve damage",
+    "high eye pressure"
+  ],
+  "gonorrhea": [
+    "sexually transmitted infection",
+    "sti"
+  ],
+  "gout": [
+    "joint pain",
+    "uric acid buildup"
+  ],
+  "hay fever": [
+    "allergic rhinitis",
+    "allergies",
+    "sneezing",
+    "runny nose"
+  ],
+  "heart attack": [
+    "myocardial infarction",
+    "chest pain",
+    "heart failure"
+  ],
+  "hepatitis": [
+    "liver inflammation",
+    "viral infection"
+  ],
+  "herpes": [
+    "viral infection",
+    "cold sores",
+    "genital herpes"
+  ],
+  "hiv": [
+    "aids",
+    "viral infection",
+    "immune system deficiency"
+  ],
+  "hypertension": [
+    "high blood pressure",
+    "chronic condition"
+  ],
+  "hypoglycemia": [
+    "low blood sugar",
+    "diabetic complication"
+  ],
+  "influenza": [
+    "flu",
+    "fever",
+    "cough",
+    "viral infection"
+  ],
+  "insomnia": [
+    "sleep disorder",
+    "difficulty sleeping"
+  ],
+  "jaundice": [
+    "yellow skin",
+    "liver disease",
+    "high bilirubin"
+  ],
+  "kidney stones": [
+    "urinary pain",
+    "flank pain",
+    "hematuria"
+  ],
+  "leukemia": [
+    "blood cancer",
+    "bone marrow cancer"
+  ],
+  "malaria": [
+    "parasitic infection",
+    "fever",
+    "chills",
+    "mosquito-borne"
+  ],
+  "measles": [
+    "skin rash",
+    "fever",
+    "viral infection"
+  ],
+  "meningitis": [
+    "brain inflammation",
+    "stiff neck",
+    "severe headache"
+  ],
+  "migraine": [
+    "severe headache",
+    "light sensitivity"
+  ],
+  "mononucleosis": [
+    "mono",
+    "viral infection",
+    "fatigue"
+  ],
+  "multiple sclerosis": [
+    "neurological disease",
+    "muscle weakness"
+  ],
+  "mumps": [
+    "swollen glands",
+    "viral infection"
+  ],
+  "myopia": [
+
+    "nearsightedness",
+    "vision problems"
+  ],
+  "narcolepsy": [
+    "sleep disorder",
+    "excessive daytime sleepiness"
+  ],
+  "obesity": [
+    "excess body fat",
+    "high bmi"
+  ],
+  "osteoarthritis": [
+    "joint wear and tear",
+    "degenerative joint disease"
+  ],
+  "osteoporosis": [
+    "brittle bones",
+    "bone density loss"
+  ],
+  "parkinson's disease": [
+    "neurological disorder",
+    "tremors",
+    "stiffness"
+  ],
+  "pityriasis rosea": [
+    "skin rash",
+    "viral infection"
+  ],
+  "pneumonia": [
+    "lung infection",
+    "chest pain",
+    "cough",
+    "fever"
+  ],
+  "polio": [
+    "viral disease",
+    "paralysis"
+  ],
+  "psoriasis": [
+    "skin disorder",
+    "scaly patches"
+  ],
+  "rabies": [
+    "viral disease",
+    "animal bite"
+  ],
+  "rheumatoid arthritis": [
+    "autoimmune disease",
+    "joint pain",
+    "joint swelling"
+  ],
+  "rosacea": [
+    "facial redness",
+    "skin condition"
+  ],
+  "scabies": [
+    "mite infection",
+    "skin itching"
+  ],
+  "schizophrenia": [
+    "psychotic disorder",
+    "hallucinations",
+    "delusions"
+  ],
+  "sciatica": [
+    "nerve pain",
+    "lower back pain"
+  ],
+  "scurvy": [
+    "vitamin c deficiency",
+    "bleeding gums"
+  ],
+  "shingles": [
+    "herpes zoster",
+    "painful rash",
+    "viral infection"
+  ],
+  "sinusitis": [
+    "sinus infection",
+    "facial pressure",
+    "headache"
+  ],
+  "sleep apnea": [
+    "breathing pauses during sleep",
+    "snoring"
+  ],
+  "stomach flu": [
+    "gastroenteritis",
+    "vomiting",
+    "diarrhea"
+  ],
+  "strep throat": [
+    "bacterial infection",
+    "sore throat",
+    "fever"
+  ],
+  "stroke": [
+    "brain damage",
+    "slurred speech",
+    "paralysis"
+  ],
+  "tetanus": [
+    "bacterial infection",
+    "muscle spasms"
+  ],
+  "tinnitus": [
+    "ringing in the ears",
+    "hearing loss"
+  ],
+  "tuberculosis": [
+    "tb",
+    "bacterial infection",
+    "persistent cough",
+    "weight loss"
+  ],
+  "typhoid": [
+    "bacterial infection",
+    "fever",
+    "stomach pain"
+  ],
+  "ulcer": [
+    "stomach sore",
+    "abdominal pain",
+    "stomach bleeding"
+  ],
+  "urinary tract infection": [
+    "uti",
+    "frequent urination",
+    "painful urination"
+  ],
+  "varicose veins": [
+    "swollen veins",
+    "leg pain"
+  ],
+  "vertigo": [
+    "dizziness",
+    "spinning sensation"
+  ],
+  "warts": [
+    "viral growth",
+    "skin growths"
+  ],
+  "west nile fever": [
+    "viral infection",
+    "fever",
+    "headache"
+  ],
+  "yellow fever": [
+    "viral infection",
+    "fever",
+    "headache"
+  ]
 }

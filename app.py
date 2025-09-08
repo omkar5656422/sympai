@@ -18,9 +18,15 @@ else:
 def load_data():
     if not os.path.exists(DATA_FILE):
         return {}
-    df = pd.read_csv(DATA_FILE)
+    
+    # 🩹 FIX 1: This parameter handles inconsistent columns and skips bad lines
+    df = pd.read_csv(DATA_FILE, on_bad_lines='skip')
     df.columns = df.columns.str.strip().str.lower()
     symptom_data = {}
+    
+    # 🩹 FIX 2: This line fills empty cells in the 'symptom' column
+    df["symptom"] = df["symptom"].fillna('')
+    
     for _, row in df.iterrows():
         symptom = str(row["symptom"]).lower().strip()
         conditions = [c.strip() for c in str(row["conditions"]).split(",") if c.strip()]
@@ -32,7 +38,7 @@ def save_new_mapping(symptom, condition):
     symptom = symptom.strip().lower()
     condition = condition.strip().lower()
     if os.path.exists(DATA_FILE):
-        df = pd.read_csv(DATA_FILE)
+        df = pd.read_csv(DATA_FILE, on_bad_lines='skip')
         df.columns = df.columns.str.strip().str.lower()
     else:
         df = pd.DataFrame(columns=["symptom", "conditions"])
